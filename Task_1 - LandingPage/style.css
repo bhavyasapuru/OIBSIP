@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+html{
+     height:100%;
+     margin:0;
+     padding:0;
+}
+
+
+body{
+   background-image:url(pic2.jpeg);
+   background-size:cover;
+   background-position:center;
+   opacity: 0.7;
+   margin:0; padding:0;
+   font-family:'Open Sans',sans-serif;
+}
+
+
+div{
+   width:300px;
+   height:87.4vh;
+   color:#ffffff;
+   padding:50px;
+   overflow:hidden;
+   position:absolute;
+   left:10vw;
+   text-align:left;
+}
+
+
+
+h1{
+   font-family:'Glass Antiqua';
+   font-size:70px;
+   font-weight:400;
+   margin-top:10vh;
+   color:rgb(33, 119, 201);
+}
+
+
+
+p{
+   
+   letter-spacing:1px;
+   line-height: 25px;
+   font-style: oblique;
+   font-weight:600;
+   font-size:15px;
+   color: rgb(33, 119, 201);
+}
+
+
+nav{
+   float:right;
+   text-transform:uppercase;
+   font-family: "Times New Roman", Times, serif;
+   letter-spacing:2px;
+   font-size:20px;
+   margin-top:5vh;
+}
+
+
+a{
+   color:rgb(52, 179, 185);
+}
+
+.nav-link{
+   text-decoration:none;
+   color:rgb(33, 119, 201);
+   margin-right:30px;
+   font-size:25px;
+}
